@@ -16,14 +16,12 @@ const Page = () => (
       <div className='gradient-04 z-0'/>
       <WhatsNew />
     </div>
-
+    <World />
     <div className='relative'>
-      <World />
-      <div className='gradient-04 z-0'/>
       <Insights />
+      <div className='gradient-04 z-0'/>
+      <Feedback />
     </div>
-
-    <Feedback />
     <Footer />
   </div>
 );
